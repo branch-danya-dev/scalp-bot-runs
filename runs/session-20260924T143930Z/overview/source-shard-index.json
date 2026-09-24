@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "shards": [
+    {
+      "schemaVersion": 1,
+      "source": "session-20260924T143930Z.jsonl",
+      "shard": 0,
+      "coreStartTs": 1790260778.631803,
+      "coreEndTs": 1790262578.631803,
+      "rows": 144905,
+      "frameRows": 5228,
+      "orderbookRows": 26219,
+      "tradeDeltaGapRows": 0,
+      "symbols": [
+        "BTCUSDT",
+        "CLUSDT",
+        "DOGEUSDT",
+        "ETHUSDT",
+        "HYPEUSDT",
+        "LTCUSDT",
+        "NEARUSDT",
+        "ONDOUSDT",
+        "SOLUSDT",
+        "SOXLUSDT",
+        "XRPUSDT",
+        "ZECUSDT"
+      ],
+      "tradeTape": "delta_v1 preserved in session-analysis.jsonl",
+      "archive": "session-20260924T143930Z-hour-00.zip",
+      "archiveSizeBytes": 155639825
+    },
+    {
+      "schemaVersion": 1,
+      "source": "session-20260924T143930Z.jsonl",
+      "shard": 1,
+      "coreStartTs": 1790262578.631803,
+      "coreEndTs": 1790264378.631803,
+      "rows": 163985,
+      "frameRows": 6514,
+      "orderbookRows": 29942,
+      "tradeDeltaGapRows": 0,
+      "symbols": [
+        "BTCUSDT",
+        "CLUSDT",
+        "DOGEUSDT",
+        "ETHUSDT",
+        "HYPEUSDT",
+        "LTCUSDT",
+        "NEARUSDT",
+        "ONDOUSDT",
+        "SOLUSDT",
+        "SOXLUSDT",
+        "XRPUSDT",
+        "ZECUSDT"
+      ],
+      "tradeTape": "delta_v1 preserved in session-analysis.jsonl",
+      "archive": "session-20260924T143930Z-hour-01.zip",
+      "archiveSizeBytes": 196730430
+    },
+    {
+      "schemaVersion": 1,
+      "source": "session-20260924T143930Z.jsonl",
+      "shard": 2,
+      "coreStartTs": 1790264378.631803,
+      "coreEndTs": 1790264410.434625,
+      "rows": 3231,
+      "frameRows": 132,
+      "orderbookRows": 532,
+      "tradeDeltaGapRows": 0,
+      "symbols": [
+        "BTCUSDT",
+        "CLUSDT",
+        "DOGEUSDT",
+        "ETHUSDT",
+        "HYPEUSDT",
+        "LTCUSDT",
+        "NEARUSDT",
+        "ONDOUSDT",
+        "SOLUSDT",
+        "SOXLUSDT",
+        "XRPUSDT",
+        "ZECUSDT"
+      ],
+      "tradeTape": "delta_v1 preserved in session-analysis.jsonl",
+      "archive": "session-20260924T143930Z-hour-02.zip",
+      "archiveSizeBytes": 3474270
+    }
+  ]
+}

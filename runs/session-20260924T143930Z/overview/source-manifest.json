@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-24T16:36:01.204617+00:00",
+  "source": {
+    "file": "session-20260924T143930Z.jsonl",
+    "sizeBytes": 5501584429,
+    "rows": 368113,
+    "eventCounts": {
+      "symbol_activated": 12,
+      "market_context_changed": 278743,
+      "strategy_state_transition": 9237,
+      "decision": 12117,
+      "research_frame": 35201,
+      "market_frame": 32665,
+      "entry_freshness_changed": 28,
+      "scanner_update": 53,
+      "bot_started": 1,
+      "trade_opened": 11,
+      "economic_shadow": 2,
+      "setup_consumed": 11,
+      "trade_closed": 11,
+      "setup_rearmed": 11,
+      "partial_take": 5,
+      "risk_reject": 3,
+      "run_summary": 1,
+      "bot_stopped": 1
+    },
+    "symbols": [
+      "BTCUSDT",
+      "CLUSDT",
+      "DOGEUSDT",
+      "ETHUSDT",
+      "HYPEUSDT",
+      "LTCUSDT",
+      "NEARUSDT",
+      "ONDOUSDT",
+      "SOLUSDT",
+      "SOXLUSDT",
+      "XRPUSDT",
+      "ZECUSDT"
+    ],
+    "firstTs": 1790260778.631803,
+    "lastTs": 1790264410.434625,
+    "durationSeconds": 3631.8028218746185
+  },
+  "overview": {
+    "frameSeconds": 10.0,
+    "bookDepth": 5,
+    "rows": 303907,
+    "criticalRows": 56,
+    "tradeDeltaGapRows": 0,
+    "report": "session-report.json",
+    "latencySummary": "latency-summary.json"
+  },
+  "sharding": {
+    "shardSeconds": 1800.0,
+    "shardCount": 3,
+    "frameSeconds": 3.0,
+    "bookDepth": 16,
+    "focusBookDepth": 50,
+    "orderbookSampleSeconds": 15.0,
+    "index": "shard-index.json"
+  },
+  "analysisWorkflow": [
+    "Upload the overview ZIP first.",
+    "Use session-report.json and latency-summary.json to identify strategies, trades, errors and hours that need deeper inspection.",
+    "Upload only the referenced hourly shard ZIPs for tick/DOM reconstruction.",
+    "Keep the original raw JSONL locally as the lossless source of truth."
+  ]
+}

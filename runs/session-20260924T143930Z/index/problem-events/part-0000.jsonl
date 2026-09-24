@@ -1,0 +1,3 @@
+{"ts":1790263486.7690713,"iso":"2026-09-24T15:24:46.769072+00:00","shard":"0030-0060","event":"risk_reject","symbol":"CLUSDT","strategy":"weak_level_rejection","reason":"economic_gate: winner_cost_share 0.626 > maximum 0.350"}
+{"ts":1790263486.8901079,"iso":"2026-09-24T15:24:46.890108+00:00","shard":"0030-0060","event":"risk_reject","symbol":"CLUSDT","strategy":"weak_level_rejection","reason":"economic_gate: winner_cost_share 0.785 > maximum 0.350"}
+{"ts":1790263488.0446157,"iso":"2026-09-24T15:24:48.044616+00:00","shard":"0030-0060","event":"risk_reject","symbol":"CLUSDT","strategy":"weak_level_rejection","reason":"economic_gate: winner_cost_share 0.763 > maximum 0.350"}

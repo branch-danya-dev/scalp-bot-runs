@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": "session-20260924T143930Z.jsonl",
+  "shard": 0,
+  "coreStartTs": 1790260778.631803,
+  "coreEndTs": 1790262578.631803,
+  "rows": 144905,
+  "frameRows": 5228,
+  "orderbookRows": 26219,
+  "tradeDeltaGapRows": 0,
+  "symbols": [
+    "BTCUSDT",
+    "CLUSDT",
+    "DOGEUSDT",
+    "ETHUSDT",
+    "HYPEUSDT",
+    "LTCUSDT",
+    "NEARUSDT",
+    "ONDOUSDT",
+    "SOLUSDT",
+    "SOXLUSDT",
+    "XRPUSDT",
+    "ZECUSDT"
+  ],
+  "tradeTape": "delta_v1 preserved in session-analysis.jsonl"
+}
